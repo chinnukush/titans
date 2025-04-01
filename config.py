@@ -50,7 +50,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/jI7.jpg")
 
 HELP_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ꜰɪʟᴇꜱᴛᴏʀᴇ ʙᴏᴛ ᴛᴏ ꜱᴛᴏʀᴇ ᴀɴᴅ ꜱʜᴀʀᴇ - ꜰɪʟᴇꜱ, ᴅᴏᴄᴜᴍᴇɴᴛꜱ, ᴇᴛᴄ..... \n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ 𝟦 ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</b>"
 ABOUT_TXT = "<b>✯ Creator : <a href='https://t.me/HK_Kushal'>This Person</a>\n✯ Language : <code>Python3</code>\n✯ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n✯ Source Code : <a href='https://t.me/+ymTUr8GqUZZlZmJl'>Click Here</a>\n✯ Channel : @Hari_Backup\n✯ Request Group : @Hari_Searchx</b>"
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʏ ʜɪɪ ᴅᴇᴀʀ {first}\n\nI ᴄᴀɴ ꜱᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇꜱ ɪɴ ꜱᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ɪᴛ ғʀᴏᴍ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋ./n/n𝗜𝗙 𝗬𝗢𝗨 𝗡𝗘𝗘𝗗 𝗧𝗢 𝗨𝗦𝗘 𝗙𝗢𝗥 𝗣𝗘𝗥𝗦𝗢𝗡𝗔𝗟 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗢𝗪𝗡𝗘𝗥 𝗛𝗘𝗥𝗘 😜 @Harikushal")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "8075224687 7253187871").split()):
@@ -59,7 +59,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʏ ʜɪɪ ᴅᴇᴀʀ {first}\n\n<b>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɪᴏɪɴ ɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ ᴛᴏ ᴜꜱᴇ ᴍᴇ\n\nKindly ᴘʟᴇᴀꜱᴇ ɪᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
