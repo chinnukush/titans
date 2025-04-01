@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002515386092"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "8075224687"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8075224687 7253187871"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -46,14 +46,14 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002698579732"
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/_k7.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/pNw.jpg") 
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/jI7.jpg") 
 
 HELP_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ꜰɪʟᴇꜱᴛᴏʀᴇ ʙᴏᴛ ᴛᴏ ꜱᴛᴏʀᴇ ᴀɴᴅ ꜱʜᴀʀᴇ - ꜰɪʟᴇꜱ, ᴅᴏᴄᴜᴍᴇɴᴛꜱ, ᴇᴛᴄ..... \n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ 𝟦 ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</b>"
 ABOUT_TXT = "<b>✯ Creator : <a href='https://t.me/HK_Kushal'>This Person</a>\n✯ Language : <code>Python3</code>\n✯ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n✯ Source Code : <a href='https://t.me/+ymTUr8GqUZZlZmJl'>Click Here</a>\n✯ Channel : @Hari_Backup\n✯ Request Group : @Hari_Searchx</b>"
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "8075224687").split()):
+    for x in (os.environ.get("ADMINS", "8075224687 7253187871").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -74,10 +74,10 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "👋Hey Friend, 🚫Don't send any messages to me directly I'm only File Share bot!"
+USER_REPLY_TEXT = "👋 ʜᴇʏ ғʀɪᴇɴᴅ, 🚫 ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴀɴʏ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ'ᴍ ᴏɴʟʏ ғɪʟᴇ ꜱʜᴀʀᴇ ʙᴏᴛ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(8075224687)
+ADMINS.append(8075224687 7253187871)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
