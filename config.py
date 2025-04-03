@@ -29,7 +29,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "8075224687 7253187871"))
 PORT = os.environ.get("PORT", "8080")
 
 #File Auto Delete
-FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "45")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "2700")) # auto delete in seconds
 
 
 #Database 
@@ -77,7 +77,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "👋 ʜᴇʏ ғʀɪᴇɴᴅ, 🚫 ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴀɴʏ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ'ᴍ ᴏɴʟʏ ғɪʟᴇ ꜱʜᴀʀᴇ ʙᴏᴛ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(8075224687 7253187871)
+ADMINS.append(8075224687)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
