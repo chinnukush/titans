@@ -44,10 +44,15 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("🧠 ʜᴇʟᴘ", callback_data = "help"),
-                    InlineKeyboardButton("🔰 ᴀʙᴏᴜᴛ", callback_data = "about")
-                    ]
-                ]
+                    InlineKeyboardButton(text="🏖️", callback_data="help"),
+                    InlineKeyboardButton(text="🍂", callback_data="about"),
+                    InlineKeyboardButton(text="⚠️", callback_data="help"),
+                    InlineKeyboardButton(text="💸", callback_data="about"),
+                    InlineKeyboardButton(text="🎭", callback_data="help"),
+                ],[ 
+                    InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Hari_Backup"), 
+                    InlineKeyboardButton("ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/Hari_Searchx"),
+                ]]
             )
         )            
     elif data == "close":
