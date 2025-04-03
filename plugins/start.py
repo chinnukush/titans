@@ -95,12 +95,16 @@ async def start_command(client: Client, message: Message):
         return
     else:
         reply_markup = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("🧠 ʜᴇʟᴘ", callback_data = "help"),
-                    InlineKeyboardButton("🔰 ᴀʙᴏᴜᴛ", callback_data = "about")
-                ]
-            ]
+            [[
+                    InlineKeyboardButton(text="🏖️", callback_data="help"),
+                    InlineKeyboardButton(text="🍂", callback_data="about"),
+                    InlineKeyboardButton(text="⚠️", callback_data="help"),
+                    InlineKeyboardButton(text="💸", callback_data="about"),
+                    InlineKeyboardButton(text="🎭", callback_data="help"),
+                ],[ 
+                    InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Hari_Backup"), 
+                    InlineKeyboardButton("ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/Hari_Searchx"),
+                ]]
         )
         await message.reply_photo(
             photo= START_PIC,
