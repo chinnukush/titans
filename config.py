@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002515386092"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "8075224687"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7253187871"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -53,7 +53,7 @@ ABOUT_TXT = "<b>✯ Creator : <a href='https://t.me/HK_Kushal'>This Person</a>\n
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʏ ʜɪɪ ᴅᴇᴀʀ {first}\n\nI ᴄᴀɴ ꜱᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇꜱ ɪɴ ꜱᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ɪᴛ ғʀᴏᴍ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋ./n/n𝙸𝙵 𝚈𝙾𝚄 𝙽𝙴𝙴𝙳 𝚃𝙾 𝚄𝚂𝙴 𝙵𝙾𝚁 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚆𝙽𝙴𝚁 𝙷𝙴𝚁𝙴 😜 @Harikushal")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "8075224687").split()):
+    for x in (os.environ.get("ADMINS", "7253187871").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -77,7 +77,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "👋 ʜᴇʏ ғʀɪᴇɴᴅ, 🚫 ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴀɴʏ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ'ᴍ ᴏɴʟʏ ғɪʟᴇ ꜱʜᴀʀᴇ ʙᴏᴛ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(8075224687)
+ADMINS.append(7253187871)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
