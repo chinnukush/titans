@@ -53,7 +53,7 @@ ABOUT_TXT = "<b>✯ Creator : <a href='https://t.me/HK_Kushal'>This Person</a>\n
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʏ ʜɪɪ ᴅᴇᴀʀ {first}\n\nI ᴄᴀɴ ꜱᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇꜱ ɪɴ ꜱᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ɪᴛ ғʀᴏᴍ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋ./n/n𝗜𝗙 𝗬𝗢𝗨 𝗡𝗘𝗘𝗗 𝗧𝗢 𝗨𝗦𝗘 𝗙𝗢𝗥 𝗣𝗘𝗥𝗦𝗢𝗡𝗔𝗟 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗢𝗪𝗡𝗘𝗥 𝗛𝗘𝗥𝗘 😜 @Harikushal")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "8075224687").split()):
+    for x in (os.environ.get("ADMINS", "7253187871").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -77,7 +77,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "👋 ʜᴇʏ ғʀɪᴇɴᴅ, 🚫 ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴀɴʏ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ'ᴍ ᴏɴʟʏ ғɪʟᴇ ꜱʜᴀʀᴇ ʙᴏᴛ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(8075224687)
+ADMINS.append(7253187871)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
